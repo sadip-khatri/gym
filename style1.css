@@ -1,0 +1,229 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.about-nav{
+    height: 60vh;
+    width: 100%;
+    background-image: url(./assets/img/about-bg.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex-end;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.about-nav::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(39, 38, 38, 0.7);
+    height: 60%;
+    width: 100%;
+}
+.about-nav p{
+    position: relative;
+    z-index: 1;
+    color: #DE6E23;
+    font-size: 18px;
+    padding-left: 15px;
+    float: right;
+    margin-right: 4%;
+    margin-top: 1%;
+    font-weight: bold;
+}
+.about-nav img{
+    position: relative;
+    z-index: 1;
+    height: 14vh;
+    margin-top: 2%;
+    margin-left: 3%;
+}
+.about-nav ul{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    margin-top: -4%;
+    margin-left: 22%;
+    font-size: 18px;
+}
+.about-nav li,a{
+    position: relative;
+    z-index: 1;
+    color: white;
+    padding-left: 20px;
+    list-style: none;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 1%;
+}
+.about-nav a:hover{
+    position: relative;
+    z-index: 1;
+    color: #DE6E23;
+}
+.about-nav h1{
+    position: relative;
+    z-index: 1;
+    color: #DE6E23;
+    text-align: center;
+    justify-content: center;
+    margin-top: 10%;
+    font-size: 100px;
+    font-weight: 800px;
+}
+#mainn{ 
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+    
+}
+#rg{
+    height: 90%;
+    width: 50%;
+    margin: 2%;
+}
+#lf{
+    
+    height: 80%;
+    width: 45%;
+    margin: 4%;
+}
+#txts{
+    font-size: large;
+    padding: 10%;
+}
+.gymm{
+    height: 100%;
+    width: 100% ;
+}
+#mission{
+    background-color: black;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    display: flex;
+}
+#lft{
+    height: 80%;
+    width: 40%;
+    margin: 5%
+}
+#rgt{
+    height: 80%;
+    width: 40%;
+    margin: 5%;
+}
+#photos{
+    height: 100%;
+    display: flexbox;
+}
+#photos >img{
+    height:200px;
+    margin-left: 30px;
+    margin-top: 20px;  
+}
+
+#txt2{
+    padding: 50px;
+    margin: 50px;
+    font-size: large;
+    color: white;
+}
+#txt2>h2{
+    font-size:40px;
+    color: #FFDD00;
+}
+#choice{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    margin-bottom: -5%;
+}
+#rig{
+    
+    height: 100%;
+    width: 40%;
+    
+}
+#lef{
+
+    height: 100%;
+    width: 60%;
+}
+#words{
+    height: 70%;
+    width: 80%;
+    margin: 10%;
+    padding: 7%;
+    font-size: larger;
+}
+#rig>img{
+    margin-top: 20%;
+    width: 80%;
+}
+.trial{
+    background-image: url(./assets/img/choosegym.jpg);
+    height: 80vh;
+    width: 100%;
+    margin-top: 5%;
+    background-position: center;
+    position: relative;
+    background-size: cover;
+}
+.trial::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+    width: 100%;
+}
+.trial h1{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: #DE6E23;
+    padding-top: 3%;
+}
+.trial p{
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 1%;
+    font-size: 18px;
+    color: white;
+}
+.trial button{
+    position: relative;
+    z-index: 1;
+    margin-left: 45%;
+    margin-top: 2%;
+    height: 8vh;
+    width: 14%;   
+    border-radius: 6px;
+    border: none;
+    font-size: 1rem;
+    background: transparent;
+    border: 2px solid white;
+    color: white;
+    cursor: pointer;
+}
+.trial button:hover{
+    background-color: #DE6E23;
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+.trial .location{
+    position: relative;
+    z-index: 1;
+    margin-top: 5%;
+}
+.trial .location .right h1{
+    margin-top: 2%;
+}
+.trial .location .right button{
+    margin-left: 46%;
+}

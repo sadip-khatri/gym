@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+#memb{
+    background-color: blue;
+    height: 50vh;
+    width: 100%;
+    position: relative;
+}
+#inside{
+    height: 30vh;
+    width: 50%;
+    margin-left: 25%;
+    position: absolute;
+    margin-top: 5%;
+}
+#inside h1{
+    text-align: center;
+}
+#inside p{
+    padding: 10px;
+    margin-left: 70px;
+    font-size: large;
+    font-weight: 600;
+}
+.p{
+    text-align: center;
+}
+#inside button{
+    margin-left: 40%;
+    margin-top: 20px;
+    height: 40px;
+    width: 25%;
+    background-color: yellow;
+    color: black;
+    font-weight: 800;
+    border: none;
+    cursor: pointer;
+}
+#memb2{
+    background-color: black;
+    height: 90vh;
+    width: 100%;   
+}

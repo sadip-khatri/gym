@@ -86,6 +86,19 @@
     font-size: 110px;
     font-weight: 800px;
 }
+.contact .button button{
+    position: relative;
+    z-index: 1;
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 6vh;
+    width: 15%;
+    border-radius: 10px;
+    border: none;
+    background-color: #DE6E23;
+    color: white;
+    margin-bottom: 10px;    
+}
 .main{
     height: 150vh;
     width: 100%;
@@ -316,7 +329,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
-.nav p{
+.header-nav{
+    display: flex;
+}
+/* .nav p{
     color: #DE6E23;
     font-size: 18px;
     padding-left: 15px;
@@ -324,27 +340,55 @@
     margin-right: 4%;
     margin-top: 1%;
     font-weight: bold;
+} */
+.header-nav .nav-logo{
+    width: 20%;
 }
-.nav img{
+.header-nav .nav-logo img{
     height: 14vh;
     margin-top: 2%;
     margin-left: 3%;
 }
-.nav ul{
+.header-nav .links{
+    width: 50%;
+}
+.header-nav .links ul{
     display: flex;
-    margin-top: -4%;
-    margin-left: 16%;
+    margin-top: 6%;
     font-size: 18px;
 }
-.nav li,a{
+.header-nav .links li,a{
     color: #DE6E23; 
-    padding-left: 30px;
+    padding-left: 20px;
     list-style: none;
     text-decoration: none;
     font-size: 20px;
     margin-top: 1%;
 }
-.nav a{
+.header-nav .button{
+    width: 20%;
+    display: flex;
+}
+.header-nav .button button{
+    height: 6vh;
+    width: 32%;
+    margin-top: 3%;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #DE6E23;
+    font-weight: bold;
+    /* font-size: 0.2rem; */
+    margin-top: 14%;
+    margin-left: 15%;
+}   
+.header-nav .button button:hover{
+    background-color: #DE6E23;
+}
+.header-nav .button button a{
+    font-size: 0.9rem;
+}
+.header-nav a{
     color: #DE6E23;
 }
 .nav h1{
@@ -578,16 +622,6 @@
     background-color: black;
     color: #DE6E23;
 }
-.video{
-    height: 78vh;
-    width: 100%;
-    margin-top: 10%;
-}
-.video iframe{
-    margin-top: 1%;
-    margin-left: 8%;
-    border-radius: 8px;
-}
 .trainers{
     height: 120vh;
     background-color: black;
@@ -650,35 +684,7 @@
 .trainers .cards .overlay h1{
     font-size: 1.5rem;
 }
-.free{
-    height: 34vh;
-    margin-top: 8%;
-}
-.free h1{
-    font-size: 3.5rem;
-    font-weight: 800;
-    text-align: center;
-    padding-top: 4%;
-}
-.free p{
-    text-align: center;
-    font-size: 18px;
-    margin-top: 1%;
-}
-.free button{
-    margin-top: 2%;
-    margin-left: 45%;
-    height: 6vh;
-    width: 10%;
-    border: none;
-    border-radius: 22px;
-    cursor: pointer;
-    background-color: black;
-    color: white;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: bold;
-}
+
 /*membership page ko style tara home page ko join now ko page*/
 .navbar{
     height: 20vh;

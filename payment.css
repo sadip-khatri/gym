@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.payment-wrapper{
+    display: flex;
+    margin-top: 4%;
+}
+.payment-form{
+    border: 2px solid black;
+    width: 50%;
+    margin-left: 4%;
+    height: auto;
+}
+.payment-form h1{
+    text-align: center;
+    padding: 10px;
+    color: #DE6E23;
+}
+.payment-form #order-summary h2 , h3{
+    padding: 10px;
+    /* text-align: center; */
+}
+.payment-form h2{
+    /* color: orange; */
+    padding: 10px;
+}
+.payment-form #payment-form input{
+    height: 6vh;
+    width: 60%;
+    /* padding-left: 20px; */
+    margin-top: 4%;
+    margin-left: 4%;
+}
+.payment-form #payment-form label{
+    padding: 10px;
+}
+.payment-form #payment-form button{
+    margin-top: 4%;
+    margin-left: 2%;
+    height: 6vh;
+    width: 15%;
+    border-radius: 10px;
+    border: none;
+    background-color: #DE6E23;
+    color: white;
+    margin-bottom: 10px;    
+}
+.image{
+    width: 50%;
+}
+.image img{
+    height: 80vh;
+    width: 90%;
+    padding-left: 10%;
+    border-radius: 30px;
+}

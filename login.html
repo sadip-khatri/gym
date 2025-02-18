@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Signup</title>
+    <link rel="shortcut icon" href="./assets/img/logoo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <div class="form-box" id="signup">
+            <h1 id="title">Sign Up</h1>
+            <form action="index.html" onsubmit="data()">
+                <div class="input-group">
+                    <div class="input-field" id="nameField">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" placeholder="Name" id="name" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" id="mail" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" id="pass" required>
+                    </div><br>
+                    <div class="link">
+                        <p><a href="#" onclick="showLogin()">Already have an account?</a></p>
+                    </div>
+                    <div class="btn-field">
+                        <button id="signupBtn" type="submit" onclick="redirectToMain()">Sign up</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+         <div class="form-box" id="login" style="display: none;height: 55vh;margin-top: 7%;">
+            <h1 id="title">Sign In</h1>
+            <form action="#" onsubmit="data1()">
+                <div class="input-group">
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" placeholder="Email" id="mail" required>
+                    </div>
+
+                    <div class="input-field">
+                        <i class="fa-solid fa-lock"></i>
+                        <input type="password" placeholder="Password" id="pass" required>
+                    </div>
+                    <div class="btn-field">
+                        <button id="signinBtn" type="submit" onclick="redirectToMain()">Sign in</button>
+                    </div>
+                    <div class="links">
+                        <p class="link" onclick="showSignup()" style="margin-top: 8%;">Don't have an account? Sign Up</p>
+                    </div>
+                </div>
+            </form>
+        </div> 
+    </div>
+
+
+    <script>
+
+     function data(){
+       var a = document.getElementById("name").value;
+       var a = document.getElementById("mail").value;
+       var a = document.getElementById("pass").value;
+    }  
+
+    function data1(){
+       var a = document.getElementById("mail").value;
+       var a = document.getElementById("pass").value;
+    }  
+    
+    function showLogin() {
+            document.getElementById('signup').style.display = 'none';
+            document.getElementById('login').style.display = 'block';
+    }
+
+    function showSignup() {
+            document.getElementById('login').style.display = 'none';
+            document.getElementById('signup').style.display = 'block';
+    }
+
+    function redirectToMain() {
+            window.location.href = 'index.html';
+    }
+    </script>
+</body>
+</html>

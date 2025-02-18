@@ -48,12 +48,15 @@
 .services-nav li,a{
     position: relative;
     z-index: 1;
-    color: white;
+    color: #DE6E23;
     padding-left: 20px;
     list-style: none;
     text-decoration: none;
     font-size: 20px;
     margin-top: 1%;
+}
+.services-nav a{
+    color: #DE6E23;
 }
 .services-nav a:hover{
     position: relative;
@@ -70,6 +73,22 @@
     font-size: 110px;
     font-weight: 800px;
 }
+.services-nav .button button{
+    position: relative;
+    z-index: 1;
+    color: black;
+    height: 6vh;
+    width: 32%;
+    margin-top: 3%;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    background-color: #DE6E23;
+    font-weight: bold;
+    /* font-size: 0.2rem; */
+    margin-top: 14%;
+    margin-left: 15%;
+} 
 #contents{
     display: flex;
     margin: 70px;
